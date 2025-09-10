@@ -1,3 +1,6 @@
+# BCIwirelesspowertransfer-viaActiveEcho
+Simulation for Omnidirectional Multicoil Wireless Power Transfer (WPT) in a Brain Computer Interface (BCI) via Active Echo
+
 omniwpt — Omnidirectional Wireless Power Transfer Simulator
 
 Minimal, clear, and faithful to the Active Echo (AE) concept: multi-coil magnetic field steering maintains power to tiny, randomly oriented implants. Pure NumPy + Matplotlib. Single-file CLI. No bloat.
@@ -43,5 +46,4 @@ Glossary
 - u: implant axis unit vector
 - AE: Active Echo, using implant-side tiny coil to sense coupling and steer TX
 - phase: binary (+/−) current polarity per coil
-
 
