@@ -1,0 +1,20 @@
+{
+  "name": "two_coils_demo",
+  "layout_note": "placeholder: two coils, simple layout",
+  "chip": {
+    "name": "starfish_placeholder",
+    "carrier_hz": 340000.0,
+    "me_sensitivity": 1.0,
+    "rectifier_eff": 0.7,
+    "power_budget_mw": 1.0
+  },
+  "coils": [
+    {"pos": [-0.03, 0.0, 0.0], "moment": [0.0, 0.0, 1.0]},
+    {"pos": [ 0.03, 0.0, 0.0], "moment": [0.0, 0.0, 1.0]}
+  ],
+  "implants": [
+    {"pos": [0.0, 0.0, 0.03], "axis": [0.0, 0.0, 1.0]}
+  ]
+}
+
+

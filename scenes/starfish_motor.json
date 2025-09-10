@@ -1,0 +1,23 @@
+{
+  "name": "starfish_motor_preset",
+  "layout_note": "placeholder: motor cortex nodes; mutual-M-cancel layout (label only)",
+  "chip": {
+    "name": "starfish_placeholder",
+    "carrier_hz": 340000.0,
+    "me_sensitivity": 1.0,
+    "rectifier_eff": 0.7,
+    "power_budget_mw": 1.0
+  },
+  "coils": [
+    {"pos": [-0.06, 0.0, 0.0], "moment": [0.0, 0.0, 1.0]},
+    {"pos": [ 0.06, 0.0, 0.0], "moment": [0.0, 0.0, 1.0]},
+    {"pos": [ 0.0,  0.06, 0.0], "moment": [0.0, 0.0, 1.0]}
+  ],
+  "implants": [
+    {"pos": [-0.02, 0.01, 0.03], "axis": [0.0, 0.0, 1.0]},
+    {"pos": [ 0.02, -0.01, 0.031], "axis": [0.0, 0.0, 1.0]},
+    {"pos": [ 0.0,  0.02, 0.029], "axis": [0.0, 0.0, 1.0]}
+  ]
+}
+
+
